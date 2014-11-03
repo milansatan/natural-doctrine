@@ -1,0 +1,14 @@
+html {
+    
+}
+body { 
+    margin: 0 auto;
+    position: relative;
+    background-color: #000;
+    background-position: center
+    font-family: sans-serif;
+    color: #FFF;
+    text-align: center;
+    width: 960px;
+    height: 100%;
+}

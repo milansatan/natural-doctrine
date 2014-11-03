@@ -1,0 +1,349 @@
+@charset "utf-8";
+/* 
+
+Natural Doctrine
+common.css
+
+ */
+body, div, table, caption, th, tr, td, ul, ol, li, dl, dt, dd, form, input, textarea, p, pre {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	font-size:14px;
+}
+body,html {
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+	min-width:960px;
+}
+
+header, footer, article, sction, h1, h2, h3, h4, h5, h6, p, ul, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+}
+html{
+	width:100%;}
+li {
+	list-style: none;
+}
+a {
+	border: none;
+	outline: none;
+	text-decoration: none;
+	color: #f05252;
+}
+a:hover {
+	outline: none;
+	text-decoration: underline;
+	color:#FF6D2B;
+}
+article {
+	margin: 0 auto;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+a img{
+	border:none;}
+.wp{
+	width:960px;
+	margin:0 auto;
+	background-position:center top;
+}
+.col_blue{
+	color:#0d576d;
+	}
+sup{
+	vertical-align:text-top;
+	font-size:8px !important;}
+/* ---------------------------------------------
+ *  header
+ ---------------------------------------------	*/	
+#header{
+	width:100%;
+	height:27px;
+	background-color:#000;
+	border-bottom:solid 1px #888;
+	}
+#header img{
+	padding:5px 0 0 10px;
+}
+#header .title{
+	display:none;}
+/* ---------------------------------------------
+ *  Navi
+ ---------------------------------------------	*/	
+#Navi{
+	height:59px;
+	background-image:url(../images/navi.png);
+	background-position:center top;
+	text-align:center;
+	}
+#Navi ul{
+	overflow:hidden;
+	position:relative;
+	}
+#Navi .head_logo,
+#Navi ul{
+	display:inline-block;
+	}
+#Navi .head_logo{
+	position:relative;
+	vertical-align:bottom;
+	}
+#Navi .head_logo img{
+	 margin-bottom:5px;
+	vertical-align:50%;
+	}
+#Navi li{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	height:59px;
+	background-image:url(../images/navi.png);
+	text-indent:-999em;
+	}
+#Navi li.nav1{
+	margin-left:10px;
+	background-position:-146px -59px;
+	width:166px;
+	}
+#Navi li.nav2{
+	background-position:-312px -59px;
+	width:117px;
+	}
+#Navi li.nav3{
+	background-position:-429px -59px;
+	width:115px;
+	}
+#Navi li.nav4{
+	background-position:-544px -59px;
+	width:121px;
+	}
+#Navi li.nav5{
+	background-position:-665px -59px;
+	width:136px;
+	}
+#Navi li.nav6{
+	background-position:-805px -59px;
+	width: 90px;
+	}
+	
+#Navi li.nav1:hover{
+	background-position:-146px -177px;
+	}
+#Navi li.nav2:hover{
+	background-position:-312px -177px;
+	}
+#Navi li.nav3:hover{
+	background-position:-429px -177px;
+	}
+#Navi li.nav4:hover{
+	background-position:-544px -177px;
+	}
+#Navi li.nav5:hover{
+	background-position:-665px -177px;
+	}
+#Navi li.nav6:hover{
+	background-position:-805px -177px;
+	}
+	
+#Navi li.nav1.selected,
+#Navi li.nav1.selected:hover{
+	background-position:-146px -118px;
+	}
+#Navi li.nav2.selected,
+#Navi li.nav2.selected:hover{
+	background-position:-312px -118px;
+	}
+#Navi li.nav3.selected,
+#Navi li.nav3.selected:hover{
+	background-position:-429px -118px;
+	}
+#Navi li.nav4.selected,
+#Navi li.nav4.selected:hover{
+	background-position:-544px -118px;
+	}
+#Navi li.nav5.selected,
+#Navi li.nav5.selected:hover{
+	background-position:-665px -118px;
+	}
+#Navi li.nav6.selected,
+#Navi li.nav6.selected:hover{
+	background-position:-805px -118px;
+	}
+	
+#Navi li a{
+	height:59px;
+	display:block;
+	}
+#Navi li.NAVnew:before{
+	 width:38px;
+	 height:14px;
+	 position:absolute;
+	background-image:url(../images/ico_new.gif);
+	display:block;
+	content:" ";
+	text-align:right;
+	margin-top:6px;
+	}
+#Navi li.nav1.NAVnew:before{
+	margin-left:126px;
+	}
+#Navi li.nav2.NAVnew:before{
+	margin-left:76px;
+	}
+#Navi li.nav3.NAVnew:before{
+	margin-left:74px;
+	}
+#Navi li.nav4.NAVnew:before{
+	margin-left:81px;
+	}
+#Navi li.nav5.NAVnew:before{
+	margin-left:94px;
+	}
+/* ---------------------------------------------
+ *  footer
+ ---------------------------------------------	*/
+#footer {
+	clear:both;
+	background-repeat: repeat-x;
+	background-position: top left;
+	padding: 10px 0px 15px 0px;
+	background-color: #fff;
+	width: 100%;
+	border-top:solid 1px #ccc;
+	text-align: center;
+}
+#footer * {
+	font-size: 11px;
+}
+#footer .footer_wp {
+	width: 960px;
+	margin: 0 auto;
+}
+#footer dl {
+	display:block;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	background-color: #F7F7F7;
+	line-height: 18px;
+	padding:5px;
+	float:right;
+}
+#footer dl dt {
+	display:inline-block;
+}
+#footer dl dd {
+	display:inline-block;
+	white-space:normal;
+	margin-right: 5px;
+}
+#footer dl dd.kakaku{
+	text-indent:40px;}
+#footer #SPEC {
+	position:relative;}
+#footer div.cero{
+	float:left;
+	margin-right:5px;
+	padding-top:8px;
+	}
+#footer #AUTHOR li{
+	float:left;
+	}
+#footer #RIGHTS img{
+	vertical-align:middle;
+	}
+
+#footer #AUTHOR{
+	padding-top:10px;
+	}
+	
+#footer ul.platform{
+	float:left;
+	padding-top:3px;
+	width:960px;
+	}
+#footer ul.platform img{
+	margin-right:5px;
+	}
+#footer ul.platform li{
+	float:left;
+	margin-right:15px;
+	}
+#footer ul.platform .ps,
+#footer ul.platform .nisa{
+	margin-top:2px;
+	margin-left: 35px;
+	}
+#footer ul.platform .kadokawa{
+	margin-top:13px;
+	margin-left: 35px;
+	}
+	
+#footer #AUTHOR li.kg_support{
+	border-left:solid 1px #ccc;
+	border-right:solid 1px #ccc;
+	padding:0 15px;
+	margin-left:15px;
+	min-height:85px;
+	width:960px;
+	
+	}
+#footer #AUTHOR li.kglogo{
+	float:right;
+	}
+#footer #AUTHOR li.kglogo img{
+	margin:0 0 0 3px;
+	}
+
+#snsbox{
+	display:block;
+	height:40px;
+	width:320px;
+	text-align:right;
+	float:right;
+	}
+#SNSbox{
+	display:block;
+	height:40px;
+	text-align:right;
+	padding-top:15px;	}
+
+#SNSbox .sns_plus,
+#SNSbox .sns_fb,
+#SNSbox .sns_twitter{
+	display:inline-block;
+	}
+#SNSbox .sns_fb{
+	height:40px;
+	vertical-align:top;
+	padding-bottom:15px;}
+#SNSbox .sns_plus{
+	height:40px;
+	vertical-align:top;
+	padding-bottom:15px;}
+#SNSbox .sns_twitter{
+	width:110px;
+	overflow:hidden;
+}
+#SNSbox .sns_plus{
+	margin-left:8px;
+	}
+	
+#RIGHTS{
+	padding-top:0px;
+	}
+#RIGHTS p.pl{
+	font-size:10px;
+	float:left;
+	padding-bottom:15px;
+	}
+#RIGHTS p.cp{
+	font-size:10px;
+	margin-left:85px;
+	float:left;	}

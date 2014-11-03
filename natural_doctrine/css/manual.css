@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* 
+
+Natural Doctrine
+common.css
+
+ */
+body, div, table, caption, th, tr, td, ul, ol, li, dl, dt, dd, form, input, textarea, p, pre {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	font-size:12px;
+	color:#626262;
+}
+body,html {
+	margin: 0px;
+	padding: 0px;
+	background: #000;
+}
+
+header, footer, article, sction, h1, h2, h3, h4, h5, h6, p, ul, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+}
+html{
+	width:100%;}
+.wp{
+	margin:0 auto;
+	max-width:1920px;
+	min-width:950px;}
+a{
+	color:#474343;
+	text-decoration:none;}	
+/*--------------------------------
+
+ヘッダー
+
+--------------------------------*/
+#header{
+	background-color:#000;
+	border-bottom:solid 1px #fff;
+	min-height:40px;
+	padding:4px 15px;
+	}
+#header .ligo_nd{
+	float:left;
+	}
+#header .ligo_kado{
+	float:right;
+	}
+
+/*--------------------------------
+</span></a></li>
+<li><a href="om03.html">03<span></span></a></li>
+<li><a href="om05.html">05<span>ゲームの基本</span></a></li>
+<li><a href="om06.html">06<span>ゲームの基本</span></a></li>
+<li><a href="om07.html">07<span>応用編/マルチモード
+ナビゲーション
+
+--------------------------------*/
+#navi ul{
+	text-align:center;
+	background-color:#E4D7BE;
+	border-left:solid 1px #BCAA94;
+	border-bottom:solid 1px #626262;
+	position:relative;
+	letter-spacing: -.40em;
+	}
+#navi li{
+	letter-spacing: normal;
+	width:13%;
+	font-size:15px;
+	text-align:center;
+	display:inline-block;
+	border-right:solid 1px #BCAA94;
+	line-height:40px;
+	padding:0;
+	margin:0;
+	}
+#navi li a{
+	padding:0;
+	display:block;
+	}
+#navi li a.current{
+	color:#fff;
+	background-color:#AB8B75;}
+#navi li a span{
+	display:block;
+	font-size:11px;
+	}
+
+/*--------------------------------
+
+メイン
+
+--------------------------------*/
+#Manual_ALL{
+	margin:0 auto;
+	background-color:#000000;
+	width:100%;
+	max-width:1920px;
+	min-width:950px;
+	position:relative;
+	}
+#Manual_ALL .Mimg img{
+	vertical-align:bottom;
+	width:100%;
+	height:auto;
+	}
+
+#Manual_ALL .prevpage a{
+	width:47%;
+	position:absolute;
+	z-index:200;
+	height:100%;
+	left:0;
+	}
+#Manual_ALL .nextpage a{
+	width:47%;
+	position:absolute;
+	z-index:200;
+	height:100%;
+	right:0;
+	}
+
+/*--------------------------------
+
+フッターナビ
+
+--------------------------------*/
+#NBnavi{
+	border-top:solid 1px #626262;
+	text-align:center;
+	background-color:#FFFFFF;
+	}
+#NBnavi p{
+	padding:10px 0;
+	display:inline-block;
+	font-size:15px;	
+	}
+#NBnavi p.prev{
+	border-right:solid 1px #626262;
+	width:40%;
+	float:left;
+	}
+#NBnavi p.next{
+	border-left:solid 1px #626262;
+	width:40%;
+	float:right;
+	}
+#NBnavi p.prev a,
+#NBnavi p.next a{
+	display:block;
+	}
+#NBnavi p a span{
+	color:#3C5DAA;
+	}
+/*--------------------------------
+
+フッター
+
+--------------------------------*/
+#footer{
+	border-top:solid 1px #626262;
+	padding:5px;
+	text-align:center;
+	width:100%;
+	color:#fff;
+	background-color:#000;
+	}

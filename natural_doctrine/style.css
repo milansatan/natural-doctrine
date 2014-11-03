@@ -1,0 +1,13 @@
+body { font-family: sans-serif; }
+
+#verification-dialog { display: none; }
+
+#adult-content, #minor-content { display: none; }
+
+.ui-widget-overlay { background: #000; opacity: 0.9; }
+
+.no-close .ui-dialog-titlebar-close { display: none; }
+
+#birthday .ui-datepicker { margin: 0 auto; }
+
+#verify { margin: 20px auto 0; }

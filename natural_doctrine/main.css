@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin:0;
+  padding:0;   
+}
+html{
+  
+    background: url(img/splash.png) #000 no-repeat center top;
+  
+}
+
+body { 
+  color:#000; 
+  font:normal 1em Verdana, Geneva, sans-serif;
+  
+}
+
+#container{
+  margin:0 auto; 
+  width: 1295px;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  
+	
+}
+
+footer{
+	
+	margin: 0 auto;
+	position: relative;
+	bottom: -400px;
+	color: #FFF;
+	font-size: 14px;
+	text-align: center;
+	width: 1200px;
+}
+footer img{
+	padding: 10px;
+}
+
+.ss{
+	margin: 0 auto;
+	position: relative;
+	top: 350px;
+	left: 30px;
+	
+	
+	
+}
+
+.videobox{
+	margin: 0 auto;
+	position: relative;
+	left: 25px;
+	top: 300px;
+}

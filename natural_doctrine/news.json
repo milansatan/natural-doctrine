@@ -1,0 +1,49 @@
+{
+    "news_list": [ 
+     			 {
+                    "date": "2014/4/24",
+                    "txt": "<a href='information/support_txt.php?id=6'>「アップデートファイル1.03」配信のお知らせ</a>"
+     			 },
+     			 {
+                    "date": "2014/4/11",
+                    "txt": "<a href='information/support_txt.php?id=5'>オンラインマルチプレイ 7000CPプレゼント実施のお知らせ</a>"
+     			 },
+     			 {
+                    "date": "2014/4/7",
+                    "txt": "<a href='information/support_txt.php?id=3'>「アップデートファイル1.02」に関するお知らせ</a>"
+     			 },
+     			 {
+                    "date": "2014/4/3",
+                    "txt": "<a href='information/support_txt.php?id=2'>【重要なお知らせ】PS4版で発生するに症状ついて</a>"
+     			 },
+     			 {
+                    "date": "2014/4/3",
+                    "txt": "<a href='trailers/trailers.html'>[ゲームガイド 後篇]</a>、<a href='information/faq.html'>[FAQ]</a>を公開いたしました。"
+     			 },
+     			 {
+                    "date": "2014/4/2",
+                    "txt": "<a href='information/support.php'>アップデートファイル1.01配信のお知らせ</a>"
+     			 },
+     			 {
+                    "date": "2014/3/31",
+                    "txt": "<a href='system/crossPlatform.html#c5'>オンラインモードの流れ</a>を公開しました。"
+     			 },
+     			 {
+                    "date": "2014/3/17",
+                    "txt": "<a href='trailers/trailers.html'>ゲームガイド 前篇</a>を公開しました。"
+     			 },
+     			 {
+                    "date": "2014/3/17",
+                    "txt": "<a href='system/kihon.html#c4'>System[基本ルール]</a>を更新しました。"
+     			 },
+     			 {
+                    "date": "2014/3/10",
+                    "txt": "<a href='world/character.html'>キャラクター</a>、<a href='world/monster.html'>亜人種と他種族</a>、<a href='special/shop.html'>店舗特典</a>を更新しました。"
+     			 }
+				 ],
+    "topics": [ 
+     			 {
+                    "txt": "<a href='information/support_txt.php?id=6'>『NAtURAL DOCtRINE (ナチュラル ドクトリン)<br>「アップデートファイル1.03」配信のお知らせ</a>"
+     			 }
+				 ]
+}

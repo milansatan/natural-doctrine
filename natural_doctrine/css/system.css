@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* 
+
+Natural Doctrine
+system.css
+
+ */
+
+/* ---------------------------------------------
+ *  system
+ ---------------------------------------------	*/
+#system .con_bg{
+	background-image: url(../images/con_bg3.jpg);
+	}
+#system h1{
+	width:166px;
+	height:65px;
+	background-image:url(../images/system/title_system.png);
+	padding-top:25px;
+	background-repeat:no-repeat;
+	background-position:bottom;
+	}
+#system h3{
+	margin:20px 0;
+	}
+#system .box p{
+	margin:0px 0 20px 0;
+	}
+#system .screenshot2{
+	margin:0px 0 20px 0;
+	width:740px;}
+#system .screenshot2 .photoBox{
+	width:355px;
+	display:inline-block;
+	vertical-align:top;
+	}
+#system.system1 .screenshot3 .photoBox,
+#system.system3 .screenshot3 .photoBox{
+	width:237px;
+	display:inline-block;
+	vertical-align:top;
+	color:#873A3C;
+	}
+#system .photoBox{
+	margin-right:13px;
+}
+#system .photoBox:last-child{
+	margin-right:0px;
+	}
+#system .box.last{
+	 padding-bottom:45px;}
+	 
+ /*　システムトップ　*/
+#system.system0 h2.system_h2-0{
+	background-image:url(../images/system/h2_system00.png);
+	 }
+#system.system0 .system_top_list{
+	margin:20px  0 20px 8px;
+	}
+	 
+#system.system0 .system_top_list li{
+	position:relative;
+	display:inline-block;
+	margin-right:10px;
+	z-index:10;
+	padding:0;
+	height:203px;
+	}
+#system.system0 .system_top_list .new:before{
+	 position:absolute;
+	background-image:url(../images/box_new.png);
+	width:65px;
+	height:65px;
+	top:2px;
+	left:2px;
+	z-index:20;
+	content:" ";
+	 
+	 }
+ /*　基本ルール　*/
+#system.system1 h2.system_h2-1{
+	background-image:url(../images/system/h2_system01.png);
+	 }
+#system.system1 .screenshot3,
+#system.system3 .screenshot3{
+	margin:0px 0 20px 0;
+	width:740px;}
+#system.system1 .screenshot3 a{
+	margin-right:8px;
+}
+#system.system1 .screenshot_r,
+#system.system3 .screenshot_r{
+	position:relative;
+	float:right;
+	margin-right:0px;
+	}
+	 
+#system.system1 .btn a:hover{
+	opacity:0.7;
+	 }
+
+ /*　プレイの流れ　*/
+#system.system2 h2.system_h2-2{
+	background-image:url(../images/system/h2_system02.png);
+	 }
+	
+#system.system2 .bottom0{
+	margin-bottom:5px;
+	}
+#system.system2 .ovTxt{
+	position:relative;}
+#system.system2 .ovTxtItem{
+	width:422px;
+	height:90px;
+	display:block;
+	z-index:10;
+	bottom:-60px;
+	left:310px;
+	position:absolute;} 
+
+ /*　クロスプラットフォーム　*/
+#system.system3 h2.system_h2-3{
+	background-image:url(../images/system/h2_system03.png);
+	 }
+
+#system.system3 .btn{
+	text-align:center;
+	 }
+
+#system.system3 .btn a:hover{
+	opacity:0.7;
+	 }
+
+#system.system3 .multi2_point{
+	position:relative;
+	width:725px;
+	height:188px;
+	padding:18px 15px 0 0;
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-image:url(../images/system/system_multi2_txt2.png);
+		 }
+#system.system3 .multi2_point .screenshot_r{
+	margin-right:35px;}

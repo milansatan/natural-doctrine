@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* 
+
+Natural Doctrine
+special.css
+
+ */
+body, div, table, caption, th, tr, td, ul, ol, li, dl, dt, dd, form, input, textarea, p, pre {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	font-size:14px;
+}
+body,html {
+	margin: 0px;
+	padding: 0px;
+	min-width:750px;
+}
+#page_Special.vita_wp{
+	background-color:#fff;
+	text-align:center;
+	}
+#page_Special.vita_wp #header{
+	background-color:#000;
+	text-align:center;
+	border-bottom:solid 1px #fff;
+	padding:5px 0 0px 0;
+	margin:	0;
+	}
+#page_Special.vita_wp .wp{
+	text-align:left;
+	width:750px;
+	margin:0 auto;
+	}
+#page_Special.vita_wp .contents{
+	overflow:visible;
+	min-height:600px;
+	background-image:url(../special/wallpaper/images/bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	
+}
+#page_Special.vita_wp .wp_con{
+	padding:13px;
+	text-align:center;
+	margin:0 auto;
+	width:750px;
+}
+#page_Special.vita_wp .wp_con h1{
+	margin:10px 0 15px 0;
+	}
+#page_Special.vita_wp .wp_con h2{
+	padding:0;
+	margin:0px;
+	}
+#page_Special.vita_wp .wp_con p{
+	line-height:22px;
+	padding:12px 40px;
+	font-size:16px;
+	color:#500303;
+	margin:0;
+	font-family: "ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", serif;
+	}
+#page_Special.vita_wp .wp_con .thum img{
+	border:solid 1px #fff;
+	box-shadow: 2px 2px 4px rgba(180,180,180,1);
+}
+#page_Special.vita_wp .wp_con .btn{
+	text-align:center;
+	margin:0 auto;
+	text-indent:-999em;}
+#page_Special.vita_wp .wp_con .btn a{
+	margin:0 auto;
+	text-align:center;
+	display:block;
+	background-image:url(../special/wallpaper/images/dlbtn.png);
+	width:414px;
+	height:69px;
+	}
+#page_Special.vita_wp .wp_con .btn a:hover{
+	background-image:url(../special/wallpaper/images/dlbtn_ov.png);
+	}
+#footer {
+	border-top:solid 1px #9A9A9A;
+	background-color:#fff;
+	}
+#footer p{
+	width:750px;
+	text-align:center;
+	margin:0 auto;
+	font-size:12px;
+	padding:10px 0;
+	}
